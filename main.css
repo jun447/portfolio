@@ -207,3 +207,275 @@ body {
 #work_part {
     /* border: 3px solid purple; */
 }
+.proj_cards {
+    height: 580px;
+    margin: 100px 24px;
+    border-radius: 16px;
+    display: grid;
+
+    /* border: 3px solid black; */
+    gap: 1px;
+    grid-template-areas: 'header header header' 'description description description' 'footer footer footer';
+}
+
+.prj_cars_itms {
+    width: 100%;
+    margin-top: 5px;
+
+    /* border: 3px solid crimson; */
+}
+
+.prj_crds_itm_hedr {
+    /* border: 3px solid rebeccapurple; */
+    grid-area: header;
+    padding: 20px 20px 10px;
+    height: 100%;
+}
+
+.prj_cars_itms_hdr_img_box {
+    /* border: 3px solid #344563; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #fa9c66;
+    border-radius: 8px;
+}
+
+.prj_cars_itms_hdr_img_pad {
+    width: 100%;
+    height: 90%;
+    padding: 15px;
+}
+
+.prj_cars_itms_hdr_img {
+    width: 100%;
+    height: 100%;
+}
+
+.prj_cars_itms_info {
+    grid-area: description;
+    padding: 10px;
+
+    /* border: 3px solid navy; */
+}
+
+.prj_cars_itms_info_titl {
+    width: 100%;
+
+    /* border: 3px solid navy; */
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.prj_cars_itms_info_titl_txt {
+    width: 100%;
+
+    /* border: 3px solid navy; */
+    padding-left: 12px;
+    font-size: 25px;
+}
+
+.prj_cars_itms_info_sbtle_box {
+    width: 100%;
+
+    /* border: 3px solid navy; */
+}
+
+.prj_cars_itms_info_sbtle_txt {
+    display: flex;
+    flex-direction: row;
+
+    /* border: 3px solid navy; */
+    gap: 30px;
+    padding-left: 16px;
+}
+
+.prj_cars_itms_info_sbtle_lst_one {
+    /* border: 1px solid navy; */
+    list-style: none;
+    font-size: 13px;
+    margin-top: 7px;
+    font-weight: 500;
+}
+
+.prj_cars_itms_info_sbtle_lst {
+    /* border: 1px solid navy; */
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.prj_cars_itms_info_sbtle_lst::marker {
+    /* border: 1px solid navy; */
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.prj_cars_itms_info_para_box {
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 16px;
+
+    /* border: 3px solid crimson; */
+}
+
+.prj_cars_itms_info_tech_box {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 25px;
+
+    /* border: 3px solid mediumvioletred; */
+}
+
+.prj_cars_itms_info_tech_lst {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    color: #6070ff;
+}
+
+.prj_cars_itms_info_tech_lst_itms {
+    /* border: 3px solid darkred; */
+    text-decoration: none;
+    padding: 4px 12px;
+    background-color: #d9d9f5;
+    border-radius: 8px;
+    opacity: 0.5;
+    color: #6070ff;
+}
+
+/* project buttom placeholder */
+.prj_cars_itms_info_btn_box {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding-left: 14px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* my grid footer buttom */
+.prj_cars_itms_info_btn {
+    padding: 10px;
+
+    /* border: 1px solid #6070ff; */
+    border-radius: 8px;
+    font-size: 17px;
+    background-color: transparent;
+    color: #396df2;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.abt_prt {
+    /* border: 3px solid yellow; */
+    width: 100%;
+    margin: 2px;
+    background-color: #fff;
+    border-top-right-radius: 100px;
+    padding: 10px 10px 100px 10px;
+}
+
+.abt_prt_ttle_box {
+    /* border: 1px solid black; */
+    padding: 100px 24px 0;
+}
+
+.abt_prt_ttle_box_txt {
+    font-size: 40px;
+    color: #172b4d;
+}
+
+.abt_prt_para_box {
+    /* border: 1px solid khaki; */
+    margin: 10px;
+}
+
+.abt_prt_stck_box {
+    /* border: 3px solid black; */
+    margin: 10px 16px;
+}
+
+.abt_prt_dropdwn {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 20px 0;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #dfe1e6;
+    position: relative;
+}
+
+.abt_prt_dropdwn_titles li {
+    list-style: none;
+}
+
+.abt_prt_dropdwn_txt {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+
+.dropdown_arrow {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 16.5px;
+    right: 10px;
+    background-color: #6171ff;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%, 50% 50%);
+}
+
+.lang_box {
+    /* border: 10px solid orange; */
+
+    /* border:1px solid black; */
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+}
+
+.lang {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f7f7f9;
+    list-style: none;
+    border-radius: 10px;
+}
+
+.lang_img_txt_box {
+    /* border: 1px solid darkred; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.lang_img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin: 2px;
+    background-size: cover;
+}
+
+.lang_img_a {
+    background-image: url("code_icon_a.png");
+}
+
+.lang_img_b {
+    background-image: url("code_icon_b.png");
+}
+
+.lang_img_c {
+    background-image: url("code_icon_c.png");
+}
+
+
