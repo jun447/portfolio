@@ -693,5 +693,22 @@ body {
         padding: 12px;
         flex-direction: column;
     }
+    .form_box {
+        background-size: contain;
+    }
+
+    .form_flex_center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form_para {
+        width: 33%;
+        text-align: center;
+    }
+
+    .form_fields {
+        width: 25%;
+    }
 }
 
