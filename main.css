@@ -616,5 +616,82 @@ body {
         letter-spacing: 3px;
         font-weight: 400;
     }
+    /*    ================================Work============ */
+    #work_part {
+        padding: 100px;
+    }
+
+    .proj_cards {
+        border-radius: 25px;
+        display: flex;
+
+        /* border: 1px solid hotpink; */
+        transition: ease-in-out 450ms;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+
+    .proj_cards:hover {
+        box-shadow: 0 0 0 3px #6070ff, 3px 3px 6px rgb(85, 84, 84);
+        transform: translateY(-20px);
+    }
+
+    .prj_cars_itms_info {
+        /* border: 1px solid navy; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .prj_cars_itms_info_titl_txt {
+        padding: 12px;
+        font-size: 36px;
+    }
+
+    .prj_cars_itms_info_para {
+        color: #344563;
+        letter-spacing: 0;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+
+    .prj_cars_itms_info_para_box {
+        /* border: 3px solid green; */
+        margin-top: 24px;
+    }
+
+    .abt_prt {
+        display: flex;
+    }
+
+    .about-items-a {
+        width: 50%;
+        flex-grow: 1;
+    }
+
+    .about-items-b {
+        width: 50%;
+
+        /* border: 1px solid darkred; */
+        flex-grow: 1;
+        justify-content: flex-start;
+        margin: 50px 100px 0 0;
+    }
+
+    .lang_box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .lang_img_txt_box {
+        display: flex;
+        width: 122px;
+        padding: 12px;
+        flex-direction: column;
+    }
 }
 
