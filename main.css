@@ -467,15 +467,15 @@ body {
 }
 
 .lang_img_a {
-    background-image: url("code_icon_a.png");
+    background-image: url("code_icon_a.PNG");
 }
 
 .lang_img_b {
-    background-image: url("code_icon_b.png");
+    background-image: url("code_icon_b.PNG");
 }
 
 .lang_img_c {
-    background-image: url("code_icon_c.png");
+    background-image: url("code_icon_c.PNG");
 }
 .form_box {
     /* border: 5px solid black; */
