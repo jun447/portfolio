@@ -560,6 +560,8 @@ body {
 @media only screen and (max-width: 400px) {
     .dsk_mnu_lnks {
         display: none;
+         transition: background-color 0.3s ease;
+        background-color: #3498db;
     }
 }
 
