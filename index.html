@@ -366,7 +366,27 @@
     </section>
 </main>
 
+<script>
+    const menuItems = document.querySelectorAll('.jst_lin');
+    const menuItems2 = document.querySelectorAll('.dsk_mnu_lnks');
 
+    // Iterate through each menu item and add a click event listener
+    menuItems.forEach(function(item) {
+        item.addEventListener('click', function(event) {
+            menuItems2.forEach(function(item) {
+                // Toggle display property between 'block' and 'none'
+                item.style.display = (item.style.display === 'none' || item.style.display === '') ? 'block' : 'none';
+                // Toggle background color when changing display property
+                item.style.backgroundColor = (item.style.display === 'none') ? 'transparent' : '#3498db';
+            });
+            console.log(`Menu item with index ${Array.from(menuItems).indexOf(item)} clicked!`);
+        });
+    });
+
+
+
+
+</script>
 
 </body>
 </html>
