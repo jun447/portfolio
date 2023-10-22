@@ -84,7 +84,7 @@ To run the project just execute index.html file in your browser.
 
 ### Deployment
 
-You can deploy this project using netlify or github pages.
+You can check the deployment at https://jun447.github.io/portfolio/
 
 
 <!-- AUTHORS -->
